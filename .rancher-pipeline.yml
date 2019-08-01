@@ -7,10 +7,14 @@ stages:
       tag: ajaysheoran2323/docker-nginx
       pushRemote: true
       registry: index.docker.io
-- name: done
+- name: k8s-deployment
+  steps:
+  - applyYamlConfig:
+      path: ./deployment.yaml
+- name: Done
   steps:
   - runScriptConfig:
       image: gcc:latest
-      shellScript: echo "hello world"
+      shellScript: echo "hellow world"
 timeout: 60
 notification: {}
