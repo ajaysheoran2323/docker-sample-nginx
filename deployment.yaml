@@ -7,7 +7,7 @@ metadata:
         app: nginx   
 data:
     index.html: |
-                "hello  world. Config map testing"
+               change is a must
 ---
 
 apiVersion: apps/v1
