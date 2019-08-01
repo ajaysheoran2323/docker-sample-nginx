@@ -10,7 +10,7 @@ stages:
 - name: done
   steps:
   - runScriptConfig:
-      image: python:latest
-      shellScript: print("hello")
+      image: gcc:latest
+      shellScript: echo "hello"
 timeout: 60
 notification: {}
