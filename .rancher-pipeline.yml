@@ -4,11 +4,9 @@ stages:
   - publishImageConfig:
       dockerfilePath: ./Dockerfile
       buildContext: .
-      tag: mylatestimage
-- name: k8sdeployment
-  steps:
-  - applyYamlConfig:
-      path: ./deployment.yaml
+      tag: ajaysheoran2323/docker-nginx
+      pushRemote: true
+      registry: index.docker.io
 - name: done
   steps:
   - runScriptConfig:
