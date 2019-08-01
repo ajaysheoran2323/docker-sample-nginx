@@ -30,7 +30,7 @@ spec:
         spec:
             containers:
                 - name: nginx
-                  image: nginx:{BUILD_NUMBER}
+                  image: nginx:ajaysheoran2323/docker-nginx:latest
                   imagePullPolicy: Always
                   volumeMounts:
                     - name: configmap-as-volume
