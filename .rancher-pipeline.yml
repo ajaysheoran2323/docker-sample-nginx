@@ -11,6 +11,6 @@ stages:
   steps:
   - runScriptConfig:
       image: gcc:latest
-      shellScript: echo "hello"
+      shellScript: echo "hello world"
 timeout: 60
 notification: {}
