@@ -32,5 +32,6 @@ stages:
       
       inputs:
         containerRegistry: $(dockerHub)
+        repository: $(dockerHub)
         command: push
         tags: $(tag)
