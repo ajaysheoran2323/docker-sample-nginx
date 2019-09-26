@@ -7,7 +7,7 @@ metadata:
         app: nginx   
 data:
     index.html: |
-               change is a must part 2
+               change is a must final
 ---
 
 apiVersion: apps/v1
