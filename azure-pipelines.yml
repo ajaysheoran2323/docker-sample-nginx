@@ -35,4 +35,4 @@ stages:
         command: push
         tags: 
           tag1
-          tag2
+          
