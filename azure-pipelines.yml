@@ -33,4 +33,6 @@ stages:
         containerRegistry: dockerHub
         repository: $(imageName)
         command: push
-        tags: $(tag)
+        tags: 
+          tag1
+          tag2
